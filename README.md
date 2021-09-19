@@ -10,3 +10,6 @@
 ### 3. Tuned Plot - The short window of the SMA was increased from 4 days to 10 days. This further improved the plot and the strategy returns are very close to actual returns.
 ![SMA_Short_Window_10](https://user-images.githubusercontent.com/85372363/133946591-f654e190-8b98-4222-aaf4-24dfcc12f6ff.png)
 
+## New Machine Learning Classifier - Logistic Regression Model
+### This logistic regression model performed worse than the SVC classifier baseline model and the tuned trading algorithms.
+![Logistic_Regression](https://user-images.githubusercontent.com/85372363/133946822-786d912a-1630-42d0-8e75-5876b3bd59f2.png)
