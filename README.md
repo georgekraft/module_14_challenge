@@ -2,10 +2,11 @@
 
 ## SVC Classifier Model
 ### 1. Actual Returns vs. Strategy Returns - Original Plot
-![Original Plot](https://user-images.githubusercontent.com/85372363/133945410-1cffb8ec-2a5d-449e-bbd6-6062dc7f2d5c.png)
+![Original Plot](https://user-images.githubusercontent.com/85372363/133946513-6fbb4df0-8632-4e8a-84b6-527023c92337.png)
 
-### 2. Tuned Plot - Size of training set was adjusted to start in October 2015 and end in April 2016 (6 months period) because at the end of 2015 there was a lot of volatility so the start was moved to October 2015 to capture the volatility. The training period was extended to 6 months in order capture the period of lower volatility at the beginning of 2016. As a result the strategy returns are closer to actual returns than in the original plot (please note that the scale is smaller)
-![2015-10_2016-04_Plot](https://user-images.githubusercontent.com/85372363/133945422-4b3878a8-0dd7-4c31-902c-be78fafb34cd.png)
+### 2. Tuned Plot - Size of training set was adjusted by reducing the training period from 3 months to 2 months. As a result the strategy returns are closer to actual returns than in the original plot (please note that the scale is smaller).
+![Training Period 2 months](https://user-images.githubusercontent.com/85372363/133946527-e0031bc7-8709-4c2b-b898-ccaab901e99b.png)
 
-### 3. Tuned Plot - The short window of the SMA was increased to 50 days and the long window of the SMA was increased to 200 days in order to capture longer trends.  This further improved the plot and the strategy returns are further closer to actual returns.
-![SMA_50_SMA_200_Plot](https://user-images.githubusercontent.com/85372363/133945428-c6f9ea17-8c2d-484f-ba31-c029a1c1d7c8.png)
+### 3. Tuned Plot - The short window of the SMA was increased from 4 days to 10 days. This further improved the plot and the strategy returns are very close to actual returns.
+![SMA_Short_Window_10](https://user-images.githubusercontent.com/85372363/133946591-f654e190-8b98-4222-aaf4-24dfcc12f6ff.png)
+
